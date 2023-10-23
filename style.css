@@ -1,0 +1,316 @@
+/*
+Theme Name: Kinetica 2023
+Theme URI: https://creativemediashowcase.murdoch.edu.au/
+Description: Kinetica - Murdoch 2023 Creative Media Showcase
+Author: Chloe Scorer
+Author URI: https://creativemediashowcase.murdoch.edu.au/
+Version: 1
+*/
+
+/* ICONS */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body {
+    background-image:url(images/grain.png);
+    font-family: "futura-pt", sans-serif; }
+
+/* NAVBAR */
+.logo {
+    width:200px}
+
+.navbar {
+font-family: "futura-pt", sans-serif;
+font-weight: 600;
+font-style: normal;
+padding:2%}
+
+.nav-item {
+    padding:0.3em}
+
+.headerbtn {
+    background-color:black;
+    border-left: #79D1F1 2pt solid;
+    border-top: #79D1F1 2pt solid;
+    border-right: #F05050 2pt solid;
+    border-bottom: #F05050 2pt solid;
+    height:2.4em;
+    width:6em}
+
+.rsvp {
+    color: white;
+    font-size:0.9em;
+    font-weight: 600;
+    text-decoration:none;
+    margin-bottom:10px;}
+
+.rsvp:hover{
+    color: #F05050;
+    text-decoration:none;}
+
+.navbar-toggler {
+    border:none}
+
+.dropdown {
+    justify-content: end;
+    margin-left:auto;}
+
+/*index page */
+
+/* HEADER */
+.headerbg {
+    background-image: url(images/headerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5%;}
+
+.headertag {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    color:black;
+    padding-top: 20%;
+    margin-bottom:-1%;
+    font-size:1.75em;}
+
+.kinetica {
+    text-align: center;
+    width:80%;
+    margin-left:-3.5%}
+
+.cms {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    color:black;
+    margin-top:-1%;
+    font-size:2em;}
+
+.date {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    color:black;
+    font-size:1.5em;}
+
+.rsvpheader {
+    background-color: black;
+    width:20%;
+    padding:10px;
+    margin-bottom:10%;
+    font-weight: 600;
+    color:white;
+    font-size:1.25em;}
+
+.rsvpheader:hover {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    color:#F05050;
+    text-decoration: none;}
+
+.ticket {
+    vertical-align: sub;
+    margin-left: 5px;
+}
+
+/* WHATS ON SECTION */
+.whatsontag {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    font-size:2em;
+    color:black;
+    padding-top:5%;
+    padding-bottom:5%;}
+
+    /* CSS For Carousels */
+.carousel-custom-next-arrow,
+.carousel-custom-prev-arrow {
+   height: 2rem;
+   width: 2rem;
+   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>');
+}
+
+.carousel-custom-prev-arrow {
+   rotate: 180deg;
+}
+
+.carousel-counter {
+   font-size: 2rem;
+   margin: 0 0.5rem;
+}
+
+.ar1 {
+    aspect-ratio: 1/1;
+}
+
+.object-fit-cover {
+   object-fit: cover;
+}
+
+.object-position-top {
+   object-position: top;
+}
+
+.academics-card-text {
+   margin: 1rem 0;
+}
+
+.disciplines {
+    width:100%;
+    margin:2%;
+}
+
+.disciplinelink {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.disciplinelink:hover {
+    text-decoration: none;
+    color:#79D1F1
+}
+
+/* ACADEMIC SECTION */
+
+.academictag {
+    font-weight:600;
+    padding-top:5%;
+    padding-bottom:2%;
+}
+
+.carousel {
+    width:70%;
+    margin: auto;
+}
+
+/* WHAT TO EXPECT */
+.whattoexpectsection {
+    padding-top: 10%;
+}
+.whattoexpect {
+    width:100%;
+    vertical-align:middle;
+}
+
+.wtetag {
+    font-weight: 600;
+    font-size:2em;
+}
+
+.wtepara {
+    margin-top:10%
+}
+
+/* UPDATES */
+.updates {
+    background-color: black;
+    width:90%;
+    margin:10%;
+    padding:10%
+}
+
+.updatestag {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size:5em;
+    line-height: 90%;
+}
+
+.buttoncontainer{
+    display:flex;
+    padding-top: 5%;
+}
+
+.updatebutton {
+    background-color: black;
+    font-weight: 600;
+    color:white;
+    width:35%;
+    height:50px;
+    margin:auto;
+    border-top:solid 3pt #79D1F1;
+    border-left:solid 3pt #79D1F1;
+    border-bottom:solid 3pt #F05050;
+    border-right:solid 3pt #F05050;
+}
+
+.updatebutton:hover {
+    background-color: white;
+    color:black;
+}
+
+.faqtag {
+    font-size:2em;
+    text-align: center;
+    margin-top:10%
+}
+
+.card {
+    background-color: #ffffff00;
+    border:none;
+}
+
+.card-header {
+    background-color: #ffffff00;
+    border:none;
+}
+
+.card-body {
+    background-color: #ffffff00;
+    border:none;
+}
+
+.question {
+    color:black;
+    font-weight: 600;
+    width:100%;
+    float:left;
+}
+
+.question:hover {
+    color:#F05050;
+    text-decoration: none;
+}
+
+.question:focus {
+    text-decoration: none;
+}
+
+.arrow {
+    float:right
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+}
+
+.footerlogo {
+    margin:5%
+}
+
+.footericons {
+    display:flex;
+    justify-content: center;
+}
+
+.footericon {
+    color:black;
+    font-weight:600;
+    text-decoration: none;
+    display: block;
+}
+.footericon:hover {
+    color:#F05050;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+}
